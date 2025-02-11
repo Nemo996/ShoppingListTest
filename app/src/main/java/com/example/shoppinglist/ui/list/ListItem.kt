@@ -44,7 +44,7 @@ fun ListItem(
             Image(
                 painter = painterResource(id = item.image),
                 contentDescription = "",
-                modifier = Modifier.size(30.dp, 30.dp).padding(horizontal = 16.dp)
+                modifier = Modifier.padding(horizontal = 16.dp).size(30.dp, 30.dp)
             )
         }
     }
